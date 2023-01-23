@@ -46,7 +46,7 @@ function Home() {
                 href="Quentin_Gonzalez.resume.pdf"
                 download="Quentin_Gonzalez.resume.pdf"
               >
-                <img src="resume-and-cv.png" className="h-9" />
+                <img src="resume-and-cv.png" className="h-9" alt="k"/>
               </a>
             </div>
             <div
@@ -63,7 +63,7 @@ function Home() {
                 href="https://www.linkedin.com/in/quentin-gonzalez-/"
                 target="_blank"
               >
-                <img src="icons8-linkedin-96.svg" className="h-10" />
+                <img src="icons8-linkedin-96.svg" className="h-10" alt="k"/>
               </a>
             </div>
             <div
@@ -81,7 +81,7 @@ function Home() {
                 href="https://github.com/QGonz95"
                 target="_blank"
               >
-                <img src="github-mark.png" className="h-10" />
+                <img src="github-mark.png" className="h-10" alt='k' />
               </a>
             </div>
           </div>

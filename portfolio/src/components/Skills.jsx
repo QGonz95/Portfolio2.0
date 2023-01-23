@@ -182,7 +182,7 @@ function Skills() {
           alt="logo"
         />
         <img
-          className="grayscale-[85%] hover:grayscale-0 hover:scale-125 transition duration-300 ease-in-out w-20 h-20 mt-7 m-2"
+          className="grayscale-[85%] w-20 h-20 mt-7 m-2"
           src="images/angular-seeklogo.com.svg"
           alt="logo"
         />

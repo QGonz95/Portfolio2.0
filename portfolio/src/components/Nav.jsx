@@ -5,7 +5,7 @@ export default function Navigation() {
 
   return (
     <nav className="fixed w-full z-50 ">
-      <div className="justify-between px-4 mx-auto w-full md:items-center md:flex md:px-8 bg-gradient-to-b from-white to-light-blue-50 shadow-md shadow-light-blue-50    ">
+      <div className="justify-between px-4 mx-auto w-full md:items-center md:flex md:px-12 bg-gradient-to-b from-white to-light-blue-50 shadow-md shadow-light-blue-50    ">
         <div>
           <div className="flex items-center justify-between py-2 md:py-5 md:block">
             <a className="text-2xl text-blue-gray-700" href="#State">
@@ -55,18 +55,15 @@ export default function Navigation() {
               navbar ? "block" : "hidden"
             }`}
           >
-            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-alb">
+            <ul className="items-center justify-center space-y-8 md:flex md:space-x-12 md:space-y-0 text-alb">
               {/* <li className="text-xl text-blue hover:text-white">
                                 <a href="#State">Quentin J.</a>
                             </li> */}
               <li className="text-blue-gray-900 text-lg hover:text-blue">
-                <a href="#About">Journey</a>
+                <a href="#Projects">Journey</a>
               </li>
               <li className="text-blue-gray-900 text-lg hover:text-blue">
                 <a href="#Skills">Skills</a>
-              </li>
-              <li className="text-blue-gray-900 text-lg hover:text-blue">
-                <a href="#Projects">Projects</a>
               </li>
               <li className="text-blue-gray-900 text-lg hover:text-blue">
                 <a href="#Contact">Contact</a>
